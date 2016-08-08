@@ -120,7 +120,7 @@ var StoreOptions = {
     type: StoreTypes.JSON
   },
   remember_select_notify: {
-    default: [],
+    default: [25,26,58,59,66,67,68,81,82,83,88,89,106,107,109,110,113,115,122,125,130,131,132,137,138,139,140,141,143,144,145,146,147,148,149,150,151],
     type: StoreTypes.JSON
   },
   showGyms: {
@@ -136,7 +136,7 @@ var StoreOptions = {
     type: StoreTypes.Boolean
   },
   showPokestops: {
-    default: true,
+    default: false,
     type: StoreTypes.Boolean
   },
   showLuredPokestopsOnly: {
@@ -144,23 +144,23 @@ var StoreOptions = {
     type: StoreTypes.Number
   },
   showScanned: {
-    default: false,
+    default: true,
     type: StoreTypes.Boolean
   },
   playSound: {
-    default: false,
+    default: true,
     type: StoreTypes.Boolean
   },
   geoLocate: {
-    default: false,
+    default: true,
     type: StoreTypes.Boolean
   },
   startAtUserLocation: {
-    default: false,
+    default: true,
     type: StoreTypes.Boolean
   },
   playSound: {
-    default: false,
+    default: true,
     type: StoreTypes.Boolean
   },
   pokemonIcons: {
