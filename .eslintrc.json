@@ -13,22 +13,8 @@
   },
   "globals": {
     "google": true,
-    "mapData": true,
-    "Store": true,
     "centerLat": true,
-    "centerLng": true,
-    "pageLoaded": true,
-    "countMarkers": true,
-    "skel": true,
-    "setupPokemonMarker": true,
-
-    "noLabelsStyle": true,
-    "darkStyle": true,
-    "light2Style": true,
-    "pGoStyle": true,
-    "darkStyleNoLabels": true,
-    "light2StyleNoLabels": true,
-    "pGoStyleNoLabels": true
+    "centerLng": true
   },
   "rules": {
     "semi": 0
