@@ -1,6 +1,6 @@
 # DigitalOcean
 
-**Note:** There have been reports of Niantic servers blocking requests from DigitalOcean's major IP blocks (as well as Amazon AWS, and Microsoft Azure): login failures with the Error 403 are due to this. If you are experiencing this issue there is nothing we can do about it at this time.
+> **Warning** -- Most cloud providers have been IP blocked from accessing the API
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ Check the "User Data" box lower on the page and enter the following:
 
 apt-get -y update
 apt-get -y install python python-pip git
-git clone https://github.com/AHAAAAAAA/PokemonGo-Map.git /root/PoGoMap
+git clone https://github.com/PokemonGoMap/PokemonGo-Map.git /root/PoGoMap
 cd /root/PoGoMap
 pip install -r requirements.txt
 python runserver.py -u [USERNAME] -p [PASSWORD] -st 10 -k [Google Maps API key] -l "[LOCATION]" -H 0.0.0.0 -P 80

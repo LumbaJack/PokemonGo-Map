@@ -9,7 +9,7 @@ First, make a copy of [this Google Sheets page](https://docs.google.com/spreadsh
 Now open a Terminal and clone the develop branch to a local directory:
 
 ```
-git clone -b develop https://github.com/AHAAAAAAA/PokemonGo-Map.git
+git clone -b develop https://github.com/PokemonGoMap/PokemonGo-Map.git
 ```
 
 Go to Tools / Hex-Beehive-Generator:
@@ -61,6 +61,8 @@ SET locale=EN
 
 
 ::kill all python processes
+:start
+cls
 taskkill /IM python.exe /F
 echo Starting worker processes....
 
@@ -78,7 +80,6 @@ echo Waiting 30 minutes to restart all processes
 ping 127.0.0.1 -n 1801 > nul
 
 goto start
-pause
 ```
 
 Now that we have our .bat created, We need to adjust the Arguments section on the spreadsheet. If you used the command for location_generator.py with -st set to 10, you need to change each line in the spreadsheet to -st 10 as well.
